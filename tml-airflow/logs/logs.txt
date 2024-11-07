@@ -10534,3 +10534,27 @@ branch.main.remote=origin
 branch.main.merge=refs/heads/main
 [INFO 2024-11-07_21:30:08] TML Solution Studio: Github Remote Status: origin	https://github.com/davebz11/raspberrypi (fetch)
 origin	https://<personal access token hidden>@github.com/davebz11/raspberrypi.git (push)
+[INFO 2024-11-07_21:33:31] TML Solution Studio: TML Project Creation: Creating new TML project: /raspberrypi/tml-airflow/dags/tml-solutions/project2cyt180-YOUR
+[INFO 2024-11-07_21:33:32] TML Solution Studio: git pull --rebase --autostash origin main Status: From https://github.com/davebz11/raspberrypi
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[INFO 2024-11-07_21:34:11] TML Solution Studio: Starting Git commit process for project: project2cyt180-YOUR
+[INFO 2024-11-07_21:34:11] TML Solution Studio: git commit -a Status for project project2cyt180-YOUR: fatal: paths 'project ...' with -a does not make sense
+[INFO 2024-11-07_21:34:12] TML Solution Studio: git push origin main Status: To https://github.com/davebz11/raspberrypi.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/davebz11/raspberrypi.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[INFO 2024-11-07_21:34:12] TML Solution Studio: git add . Status: 
+[INFO 2024-11-07_21:34:12] TML Solution Studio: git commit -a Status for project project2cyt180-YOUR: fatal: paths 'project ...' with -a does not make sense
+[INFO 2024-11-07_21:34:13] TML Solution Studio: git push Status for project project2cyt180-YOUR: To https://github.com/davebz11/raspberrypi.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/davebz11/raspberrypi.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
