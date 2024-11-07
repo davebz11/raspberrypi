@@ -76,9 +76,9 @@ def mqttserverconnect():
  username = ""    
  password = ""   
  if 'MQTTUSERNAME' in os.environ:
-       username = os.environ['MQTTUSERNAME']  
+       username = os.environ['davebz']  
  if 'MQTTPASSWORD' in os.environ:
-       password = os.environ['MQTTPASSWORD']  
+       password = os.environ['Marley27']  
  
  try: 
    client = paho.Client(paho.CallbackAPIVersion.VERSION2)
